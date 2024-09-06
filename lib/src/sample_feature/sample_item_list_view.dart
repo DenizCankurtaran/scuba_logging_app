@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scuba_logging_app/src/log_dive/log_dive_view.dart';
 
 import '../settings/settings_view.dart';
 import 'sample_item.dart';
@@ -27,7 +28,7 @@ class SampleItemListView extends StatelessWidget {
               // Navigate to the settings page. If the user leaves and returns
               // to the app after it has been killed while running in the
               // background, the navigation stack is restored.
-              Navigator.restorablePushNamed(context, SettingsView.routeName);
+              Navigator.restorablePushNamed(context, LogDiveView.routeName);
             },
           ),
         ],
