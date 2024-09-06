@@ -1,0 +1,6 @@
+{
+  "appTitle": "scuba_logging_app",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
